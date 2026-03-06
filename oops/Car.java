@@ -2,16 +2,15 @@ package oops;
 
 
 public class Car{
-    private int speed;
-    private String color;
+    String brand;
+    String color;
+    int speed;
 
-    public Car(String color){
-        this.color = color;
+    public void drive(){
+        System.out.println("Car brand name is "+brand);
+        System.out.println("Car color is "+color);
+        System.out.println("Car is driving at speed "+speed);
     }
 
-    public void setSpeed(int speed){
-        this.speed = speed;
-
-    }
-}    
+}
 

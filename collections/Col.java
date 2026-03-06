@@ -7,10 +7,11 @@ public class Col {
 
     ArrayList<Integer> list = new ArrayList<>();
 
-    for(li:list){
-     
+    for(Integer li:list){
+        System.out.println(li);
     }
   
+    
 
 
 
