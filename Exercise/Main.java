@@ -1,28 +1,23 @@
 package Exercise;
 
-class Car {
 
-    String brand;
-    String color;
-    int speed;
 
-    public void printDetails() {
-        System.out.println("Brand:"+brand);
-        System.out.println("Color:"+color);
-        System.out.println("Speed:"+speed);
+class Rectangle{
+    int width;
+    int height;
+
+    public void area(){
+        System.out.println("Area:"+ width*height);
     }
 }
 
-public class Main {
 
-    public static void main(String[] args) {
+class Main{
 
-        Car car = new Car();
-
-        car.brand = "Toyota";
-        car.color = "Black";
-        car.speed = 180;
-
-        car.printDetails();
-    }
+public static void main(){
+Rectangle rectangle = new Rectangle();
+rectangle.width = 10;
+rectangle.height = 5;
+rectangle.area();
+}
 }
