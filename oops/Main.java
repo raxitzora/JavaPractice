@@ -8,6 +8,8 @@ public class Main{
         car1.color="red";
         car1.speed=300;
         car1.drive();
+     
+
 
      
     }
