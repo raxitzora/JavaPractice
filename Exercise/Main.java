@@ -7,7 +7,7 @@ class Rectangle{
     int height;
 
     public void area(){
-        System.out.println("Area:"+ width*height);
+        System.out.println("Area:"+ (width*height));
     }
 }
 
