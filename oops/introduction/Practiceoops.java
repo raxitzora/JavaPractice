@@ -34,7 +34,7 @@ public class Practiceoops {
 
         BankAccount b1 = new BankAccount(0);
 
-        System.out.println(b1.balance);
+        
     }
     
 }
