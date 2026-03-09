@@ -1,0 +1,16 @@
+package CollectionsExercises;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ArrayListExample {
+    public static void main(String[] args) {
+        List <String> names = new ArrayList<>();
+
+        names.add("Raxit");
+        names.add("asd");
+
+        names.remove("asd");
+        System.out.println(names);
+    }
+}
