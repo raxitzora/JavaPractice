@@ -5,7 +5,6 @@ public class main {
         String name = "raxit";
         System.out.println(name);
     }
-    
 
     
 }
