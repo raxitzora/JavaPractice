@@ -8,33 +8,10 @@ public class Practice {
         
         list.add(5);
 
-        System.out.println(list);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-
-
-
 
     }
+
+
+
 }
+
