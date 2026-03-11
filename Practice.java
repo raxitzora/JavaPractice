@@ -9,7 +9,10 @@ public class Practice {
 
         List<Integer> list = new ArrayList<>();
 
+
         
+
+
         
         list.add(5);
 
