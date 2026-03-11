@@ -8,11 +8,12 @@ public class Practice {
 
 
 
-        
+
 
         List<Integer> list = new ArrayList<>();
 
 
+        
         
 
 
