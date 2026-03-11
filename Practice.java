@@ -1,7 +1,15 @@
 import java.util.ArrayList;
 import java.util.List;
 
+
+
 public class Practice {
+
+
+
+
+
+
 
 
     public static void main(String[] args) {
@@ -10,15 +18,18 @@ public class Practice {
 
 
 
+
+
         List<Integer> list = new ArrayList<>();
 
 
-        
+
         
 
 
 
         list.add(5);
+        System.out.println(list);
 
 
     }
