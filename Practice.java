@@ -10,5 +10,17 @@ public class Practice {
 
         System.out.println(list);
 
+
+
+
+
+
+
+
+
+
+
+        
+
     }
 }
