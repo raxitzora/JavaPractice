@@ -6,6 +6,7 @@ public class ArmStrongNumber {
         while (num>0) {
             int result = a%10;
             
+            
         }
 
 
