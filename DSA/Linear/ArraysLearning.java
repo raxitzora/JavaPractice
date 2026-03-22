@@ -14,9 +14,6 @@ public class ArraysLearning {
         // sum = sum + arr[i];
         // }
         // System.out.println("Total sum is "+sum);    
-
-
-
         // simple loop
         // for(int i =0;i<arr.length;i++){
         //     System.out.println(arr[i]);
