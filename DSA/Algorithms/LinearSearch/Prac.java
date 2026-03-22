@@ -10,7 +10,10 @@ public class Prac {
 
     
 
+
+
     
+
     }
 
     static int LinearSearchh(int[] arr, int target){
