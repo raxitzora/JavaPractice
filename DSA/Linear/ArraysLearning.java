@@ -6,17 +6,30 @@ public class ArraysLearning {
 
         //total sum of array
 
-     int[] arr = {3, 9, 2, 15, 6};
+    //  int[] arr = {3, 9, 2, 15, 6};
 
-     int max = arr[0];
+    //  int max = arr[0];
 
-     for(int i=1;i<arr.length;i++){
-        if(arr[i]>max){
-            max = arr[i];
+    //  for(int i=1;i<arr.length;i++){
+    //     if(arr[i]>max){
+    //         max = arr[i];
+    //     }
+    //  }
+
+    //  System.out.println("Maximum element is :"+max);
+
+
+    int[] numbers = {2,346,2,246,1,7,23,754};
+
+    int max = numbers[0];
+
+    for(int i=0;i<numbers.length;i++){
+        if(numbers[i]>max){
+            max = numbers[i];
         }
-     }
+    }
+    System.out.println("Max :"+max);
 
-     System.out.println("Maximum element is :"+max);
 
 
 
