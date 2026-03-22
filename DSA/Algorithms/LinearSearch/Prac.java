@@ -9,8 +9,10 @@ public class Prac {
     System.out.println("Element is at index of: "+ans);
     }
 
-
     
+
+
+
 
     static int LinearSearchh(int[] arr, int target){
         if(arr.length==0){
