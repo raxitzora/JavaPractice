@@ -8,8 +8,6 @@ public class Prac {
         int ans = LinearSearchh(numbers,target);
     System.out.println("Element is at index of: "+ans);
 
-
-
     }
 
     static int LinearSearchh(int[] arr, int target){
