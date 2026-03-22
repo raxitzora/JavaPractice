@@ -19,8 +19,6 @@ public class ArraysLearning {
         //     System.out.println(arr[i]);
         // }
 
-        
-
         //Sum of numbers
         // int sum = 0;
         // for(int i =0;i<arr.length;i++){
