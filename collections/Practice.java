@@ -1,10 +1,12 @@
 package collections;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -46,6 +48,12 @@ public class Practice {
         for(int a:numbers){
             System.out.println(a);
         }
+
+        Map<String,Integer> map = new HashMap<>();
+
+        map.put("a", 10);
+        map.put("b", 20);
+        map.put("c", 30);
 
 
 
