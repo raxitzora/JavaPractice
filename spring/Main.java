@@ -1,4 +1,4 @@
-package TightLooseCoupling;
+package spring;
 
 public class Main {
     
