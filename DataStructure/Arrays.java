@@ -27,11 +27,17 @@ public class Arrays {
         //     System.out.println(arr[i]);
         // }
 
-       for(int i=0;i<arr.length;i++){
-        System.out.println(arr[i]);
-       }
+    //    for(int i=0;i<arr.length;i++){
+    //     System.out.println(arr[i]);
+    //    }
 
-     
+     int[] arra = new int[3];
+
+     System.out.println(arra[5]);
+
+     int[] aura = new int[4];
+
+     System.out.println(aura);
 
 
 
