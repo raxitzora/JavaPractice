@@ -1,23 +1,17 @@
-package DataStructure;
-
+import java.lang.reflect.Array;
 public class Arrays {
+    
     public static void main(String[] args) {
-            String[] billPayments ={"IT","Account","Cloud"};
-            int [] num = {1,2,3};
+        int [] arr = {1,2,3,4,5};
 
-            System.out.println(num);
 
-            String[] cars = {"eon","suzuki"};
+        for(int i =0;i<arr.length;i++){
+            System.out.println(arr[i]);
+        }
 
-            for(String c:cars){
-                System.out.println(c);
-            }
+        int[] arr2 = new int[10];
 
-     
+        java.util.Arrays.fill(arr2,40);
         
     }
-
-    
-    
-    
 }
