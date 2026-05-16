@@ -1,17 +1,45 @@
 import java.lang.reflect.Array;
+import java.util.Scanner;
 public class Arrays {
     
     public static void main(String[] args) {
-        int [] arr = {1,2,3,4,5};
+        // int [] arr = {1,2,3,4,5};
 
 
-        for(int i =0;i<arr.length;i++){
-            System.out.println(arr[i]);
-        }
+        // for(int i:arr){
+        //     System.out.println(i);
+        // }
 
-        int[] arr2 = new int[10];
 
-        java.util.Arrays.fill(arr2,40);
+        // Scanner sc = new Scanner(System.in);
+
+        // int N = sc.nextInt();
+
+        // int[] arr = new int[N];
+
+        // for(int i =0;i<N;i++){
+        //     arr[i] = sc.nextInt();
+        // }
+
+        int[]arr = {1,2,3};
+
+        // for(int i =0;i<=arr.length;i++){
+        //     System.out.println(arr[i]);
+        // }
+
+       for(int i=0;i<arr.length;i++){
+        System.out.println(arr[i]);
+       }
+
+     
+
+
+
+
+        
+
+
+        
         
     }
 }
