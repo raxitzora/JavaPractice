@@ -31,13 +31,11 @@ public class Arrays {
     //     System.out.println(arr[i]);
     //    }
 
-     int[] arra = new int[3];
+    String[] names = {"a","b","c"};
 
-     System.out.println(arra[5]);
-
-     int[] aura = new int[4];
-
-     System.out.println(aura);
+    for(int i=0;i<=names.length;i++){
+        System.out.println(names[i]);
+    }
 
 
 
