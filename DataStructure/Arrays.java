@@ -1,6 +1,18 @@
 import java.lang.reflect.Array;
 import java.util.Scanner;
 public class Arrays {
+
+    public static void f1(){
+        int [] n = {2,5,3,6,7,4,2,5,7,2,1};
+        java.util.Arrays.sort(n);
+        System.out.println(java.util.Arrays.toString(n));
+    }
+
+    public static void f2(){
+        String[] fruits = {"apple","orange","mango","banana"};
+        java.util.Arrays.sort(fruits);
+        System.out.println(java.util.Arrays.toString(fruits));
+    }
     
     public static void main(String[] args) {
         // int [] arr = {1,2,3,4,5};
@@ -21,7 +33,6 @@ public class Arrays {
         //     arr[i] = sc.nextInt();
         // }
 
-        int[]arr = {1,2,3};
 
         // for(int i =0;i<=arr.length;i++){
         //     System.out.println(arr[i]);
@@ -31,11 +42,14 @@ public class Arrays {
     //     System.out.println(arr[i]);
     //    }
 
-    String[] names = {"a","b","c"};
+    // String[] names = {"a","b","c"};
 
-    for(int i=0;i<=names.length;i++){
-        System.out.println(names[i]);
-    }
+    // for(int i=0;i<=names.length;i++){
+    //     System.out.println(names[i]);
+    // }
+
+    f1();
+    f2();
 
 
 
