@@ -13,13 +13,24 @@ public class ArrayListExample {
 
         // System.out.println(names);
 
+        ArrayList<String> names = new ArrayList<>();
 
-        int[][] matrix = {
-            {1,2,3},
-            {4,5,6}
-        };
-
+        names.add("a");
+        names.add("b");
+        names.add(0,"Hello");
+        names.set(0,"raxit");
+        names.size();
+        System.out.println(names.contains("Hello"));
+        System.out.println(names);
         
+
+
+
+
+
+    
+
+
 
 
 

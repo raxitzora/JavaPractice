@@ -1,4 +1,7 @@
 import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.HashSet;
 import java.util.Scanner;
 public class Arrays {
 
@@ -50,6 +53,20 @@ public class Arrays {
 
     f1();
     f2();
+
+    String s1 ="abc";
+    String s2 = "abe";
+
+
+    System.out.println(s1.compareTo(s2));
+
+    Collection<String> nam = new ArrayList<>();
+    nam.add("raxit");
+
+    Collection<String> name = new HashSet<>();
+    name.add("raxitzora");
+
+    
 
 
 
