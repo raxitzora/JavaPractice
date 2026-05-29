@@ -1,4 +1,7 @@
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.HashSet;
+import java.util.List;
 
 
 public class ArrayListExample {
@@ -13,16 +16,27 @@ public class ArrayListExample {
 
         // System.out.println(names);
 
-        ArrayList<String> names = new ArrayList<>();
 
-        names.add("a");
-        names.add("b");
-        names.add(0,"Hello");
-        names.set(0,"raxit");
-        names.size();
-        System.out.println(names.contains("Hello"));
-        System.out.println(names);
-        
+ 
+
+        List<Integer> numbers = new ArrayList<>();
+        List<Integer> numbers2 = new ArrayList<>();
+
+            numbers.add(1);
+            numbers.add(2);
+            numbers.add(3);
+            numbers.add(4);
+
+            // numbers2.add(5);
+            // numbers2.add(6);
+            // numbers2.add(7);
+            // numbers2.add(8);
+            numbers.remove(Integer.valueOf(1));
+            System.out.println(numbers);
+
+
+
+
 
 
 
