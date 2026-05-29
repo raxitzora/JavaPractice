@@ -1,28 +1,21 @@
 import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 
 public class LinkedListExample {
     public static void main(String[] args) {
 
-        ArrayList<Integer> num = new ArrayList<>();
-        num.add(2);
-        num.addFirst(22);
+        LinkedList<Integer> number = new LinkedList<>();
+
+        number.addFirst(0);
+        number.addLast(10);
+        number.add(4);
+
+        System.out.println(number);
 
 
 
 
-        LinkedList<Integer> numbers = new LinkedList<>();
-        numbers.add(4);
-        numbers.add(3);
-        numbers.addFirst(11);
-        numbers.addLast(22);
-
-        numbers.push(333);
-        numbers.pop();
-
-      
-        
-
-        System.out.println(numbers);
+       
     }
 }
