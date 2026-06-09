@@ -1,20 +1,24 @@
 package methods;
 public class Main {
+public static void swap(int a, int b){
 
-    public static int sum(){
-        int a = 5, b = 5;
-        int total = a +b;
-        return total;
-    }
+    int temp = a;
+     a = b;
+     b = temp;
 
+
+}
 
 
 
   
     public static void main(String[] args) {
+        int a = 10; int b = 20;
 
-        int full = sum();
-        System.out.println(full);
+        swap(a, b);
+        System.out.println("a = "+a+", b = " + b);
+
+
 
 
         
